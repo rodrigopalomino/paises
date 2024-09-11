@@ -1,0 +1,75 @@
+.acaa {
+  display: flex;
+  justify-content: center;
+}
+
+.buscador {
+  width: 100%;
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+.buscador input {
+  width: 100%;
+  height: 55px;
+  font-size: 1.5rem;
+  padding-left: 2rem;
+  border-radius: 50px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.buscador select {
+  width: 100%;
+  max-width: 8rem;
+}
+
+.buscador input:hover {
+  border-bottom: 1px solid blue;
+}
+
+.card {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.paises {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.paises .row {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+.card-body {
+  text-align: center;
+}
+
+@media (max-width: 992px) {
+  .card {
+    margin: 0.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .card img {
+    height: 150px;
+  }
+}
+
+@media (max-width: 576px) {
+  .card img {
+    height: 120px;
+  }
+}
